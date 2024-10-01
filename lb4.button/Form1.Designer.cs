@@ -31,6 +31,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.hoverButtonB1 = new lb4.button.HoverButtonB();
             this.hoverButton1 = new lb4.button.HoverButton();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -68,11 +70,33 @@
             this.hoverButton1.UseVisualStyleBackColor = true;
             this.hoverButton1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.hoverButton1_KeyDown);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(604, 31);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(24, 612);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "|\r\n|\r\n|\r\n|\r\n|\r\n|\r\n|\r\n|\r\n|\r\n|\r\n|\r\n|\r\n|\r\n|\r\n|\r\n|\r\n|\r\n";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.Location = new System.Drawing.Point(868, 9);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(75, 36);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Тест";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(529, 694);
+            this.ClientSize = new System.Drawing.Size(1163, 694);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.hoverButtonB1);
             this.Controls.Add(this.hoverButton1);
@@ -88,6 +112,8 @@
         private HoverButton hoverButton1;
         private HoverButtonB hoverButtonB1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }
 
