@@ -77,5 +77,10 @@ namespace lb4.button
                 return;
             }
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
